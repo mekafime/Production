@@ -1,3 +1,8 @@
+# Este código fue creado por mekafime. 
+# Para pronosticar la demanda en función al historico de producción de dos períodos anuales
+# Se usa el método de regresión lineal con un factor de estacionalidad
+# Se debe ingresar la producción mensual por cada período.
+
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
